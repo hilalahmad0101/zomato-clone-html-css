@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    background-image: url('../image/hero.avif');
+    width: 100%;
+    height: fit-content;
+    min-height: 20vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    color: white;
+}
+
+.left_side_navbar a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.right_side_navbar a{
+    color: white;
+    padding:0px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.wrapper-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 6rem;
+    font-weight: bold;
+    color: white;
+}
+.sub_title{
+    color: white;
+    margin: 20px 0px;
+    font-size: 2rem;
+}
+.search{
+    display: flex;
+    padding: 0px 5px;
+    width: 80%;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius:8px;
+    margin: 30px 0px;
+}
+
+.select-box select{
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+.search-field {
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.search-field input{
+    width:100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 5px 2px;
+}
+.search i{
+    padding: 0px 10px;
+    color: gray;
+}
